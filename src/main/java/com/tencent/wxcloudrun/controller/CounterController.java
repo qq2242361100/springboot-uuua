@@ -86,4 +86,10 @@ public class CounterController {
   ApiResponse get111() {
     return ApiResponse.ok(123456);
   }
+
+  @PostMapping(value = "/ziyuan/save")
+  ApiResponse get222(@RequestBody Object obj,Integer baiyu,Integer caiyu,Integer tiaozhan) {
+
+    return ApiResponse.ok(obj);
+  }
 }
