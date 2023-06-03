@@ -79,5 +79,11 @@ public class CounterController {
       return ApiResponse.error("参数action错误");
     }
   }
-  
+
+
+  //aaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  @GetMapping(value = "/test/answer")
+  ApiResponse get111() {
+    return ApiResponse.ok(123456);
+  }
 }
