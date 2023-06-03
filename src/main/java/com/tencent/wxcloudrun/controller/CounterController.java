@@ -89,8 +89,8 @@ public class CounterController {
   }
 
   @PostMapping(value = "/shuxing/save")
-  ApiResponse get333(@RequestBody String wuJiangName,Object o) {
+  ApiResponse get333(@RequestBody String wuJiangName,Object shuxing) {
 
-    return ApiResponse.ok(o);
+    return ApiResponse.ok(shuxing);
   }
 }
